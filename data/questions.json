@@ -1,0 +1,19 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "question": "Bonjour",
+            "answer": "Bonjour, je suis Guillaume Lanfroid-Nazac"
+        },
+        {
+            "id": 2,
+            "question": "Pouquoi cette application ?",
+            "answer": "J'ai voulu créer cette application pour vous présenter mes compétence d'une façon intéractive et original."
+        },
+        {
+            "id": 3,
+            "question": "",
+            "answer": ""
+        }
+    ]
+}
