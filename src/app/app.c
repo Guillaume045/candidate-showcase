@@ -25,10 +25,10 @@ void startApplication()
 
     int nombreQuestionPosee = 0;
 
-    while (nombreQuestionPosee < 5)
+    while (nombreQuestionPosee < 10)
     {
 
-        printf("\nQuestion %d/5\n",
+        printf("\nQuestion %d/10\n",
                nombreQuestionPosee + 1);
 
         displayQuestions(
