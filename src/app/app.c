@@ -56,7 +56,7 @@ void startApplication()
             printf("Choix invalide\n");
         }
 
-        if (nombreQuestionPosee < 5)
+        if (nombreQuestionPosee < 10)
         {
             char continuer;
 
