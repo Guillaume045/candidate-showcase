@@ -3,14 +3,11 @@
 #include "app.h"
 
 #include "../questions/question.h"
-
 #include "../json/json_reader.h"
-
 #include "../ui/display.h"
 
 void startApplication()
 {
-
     Question questions[MAX_QUESTIONS];
 
     int number =
@@ -20,31 +17,62 @@ void startApplication()
 
     if (number == 0)
     {
+        printf("Aucune question chargée\n");
         return;
     }
 
     displayWelcome();
 
-    displayQuestions(
-        questions,
-        number);
+    int nombreQuestionPosee = 0;
 
-    int choice;
-
-    printf("\nVotre choix : ");
-
-    scanf(
-        "%d",
-        &choice);
-
-    if (choice > 0 && choice <= number)
+    while (nombreQuestionPosee < 5)
     {
-        displayAnswer(
-            questions[choice - 1]);
+
+        printf("\nQuestion %d/5\n",
+               nombreQuestionPosee + 1);
+
+        displayQuestions(
+            questions,
+            number);
+
+        int choix;
+
+        printf("\nVotre choix : ");
+
+        scanf(
+            "%d",
+            &choix);
+
+        if (choix > 0 && choix <= number)
+        {
+
+            displayAnswer(
+                questions[choix - 1]);
+
+            nombreQuestionPosee++;
+        }
+        else
+        {
+            printf("Choix invalide\n");
+        }
+
+        if (nombreQuestionPosee < 5)
+        {
+            char continuer;
+
+            printf("\nContinuer ? (o/n) : ");
+
+            scanf(
+                " %c",
+                &continuer);
+
+            if (continuer == 'n' ||
+                continuer == 'N')
+            {
+                break;
+            }
+        }
     }
-    else
-    {
-        printf(
-            "Choix incorrect\n");
-    }
+
+    printf("\nMerci d'avoir découvert mon profil !\n");
 }
