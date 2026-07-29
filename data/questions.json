@@ -3,17 +3,52 @@
         {
             "id": 1,
             "question": "Bonjour",
-            "answer": "Bonjour, je suis Guillaume Lanfroid-Nazac"
+            "answer": "Bonjour, je suis Guillaume Lanfroid-Nazac. Afin de vous présenter ma candidature autrement, j'ai créé cette application."
         },
         {
             "id": 2,
             "question": "Pouquoi cette application ?",
-            "answer": "J'ai voulu créer cette application pour vous présenter mes compétence d'une façon intéractive et original."
+            "answer": "J'ai souhaité créer cette application afin de vous montrer ma motivation à rejoindre votre équipe et de proposer une candidature différente d'un simple CV. À travers ce projet, je souhaite également mettre en avant ma créativité et ma manière d'aborder les problématiques."
         },
         {
             "id": 3,
-            "question": "",
-            "answer": ""
+            "question": "Pourquoi choisir cette présentation ?",
+            "answer": "Je voulais proposer une approche plus interactive qu'un simple CV."
+        },
+        {
+            "id": 4,
+            "question": "Quels outils j'utilise ?",
+            "answer": "J'utilise GitHub, Visual Studio Code, PlatfromIO, Thony, Arduino, je m'adapte en fonction du projets."
+        },
+        {
+            "id": 5,
+            "question": "Comment j'organise mon code ?",
+            "answer": "Je tente d'appliquer ce que j'ai pu voir en cours, car avec une architecture claire cela peut simplifier la maintenance et la correction de bugs futurs."
+        },
+        {
+            "id": 6,
+            "question": "Comment je résous un problème ?",
+            "answer": "Avec une bonne architecture, je peux séparer les éléments du code et tester séparément les fonctions ou classes mises en place dans le code pour voir où se situe le problème, puis j'applique une correction pour le corriger."
+        },
+        {
+            "id": 7,
+            "question": "Pourquoi SII ?",
+            "answer": "Je souhaite rejoindre SII afin de développer mes compétences, faire évoluer mes projets en leur donnant une nouvelle dimension et apprendre aux côtés d'équipes expérimentées. Mon objectif est également de m'investir sur le long terme et, si l'opportunité se présente, d'évoluer au sein de votre entreprise."
+        },
+        {
+            "id": 8,
+            "question": "Qu'est-ce que je peux apporter à l'équipe ?",
+            "answer": "Je peux apporter un regard différent sur les missions, de la curiosité, une envie constante d'apprendre et une approche qui permet parfois d'envisager des solutions auxquelles on ne pense pas immédiatement. Je suis également motivé à progresser, à partager mes idées et à m'investir pleinement dans les projets de l'équipe."
+        },
+        {
+            "id": 9,
+            "question": "Quels sont mes objectifs ?",
+            "answer": "Mon objectif est de découvrir le domaine de la robotique dans toute sa diversité afin d'identifier les aspects qui me passionnent le plus. Les différentes missions proposées chez SII représentent pour moi une excellente opportunité d'explorer ces domaines, de développer mes compétences et de participer à des projets concrets que je pourrai voir prendre vie."
+        },
+        {
+            "id": 10,
+            "question": "Un dernier mot ?",
+            "answer": "Merci d'avoir pris le temps de découvrir cette application. J'espère qu'elle vous aura permis d'en apprendre un peu plus sur moi et ma manière de travailler."
         }
     ]
 }
